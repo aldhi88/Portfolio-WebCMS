@@ -15,6 +15,12 @@ WebCMS ditujukan untuk developer yang ingin membangun website dengan HTML statis
 - Slideshow Konten
 - Atribut Web (Footer, Meta Info, dll)
 
+## 🖼️ Some Screenshots
+![Dashboard Admin](screenshots/upload-media.png)
+![Dashboard Admin](screenshots/add-berita.png)
+![Dashboard Admin](screenshots/add-halaman.png)
+![Dashboard Admin](screenshots/menu.png)
+
 ## 🛠️ Teknologi
 
 - **Framework:** Laravel 8  
@@ -26,13 +32,12 @@ WebCMS ditujukan untuk developer yang ingin membangun website dengan HTML statis
 1. Clone repository:
    ```bash
    git clone https://github.com/aldhi88/Portfolio-WebCMS.git
-   cd webcms
+   cd Portfolio-WebCMS
    ```
 
 2. Install dependencies:
    ```bash
    composer install
-   npm install && npm run dev
    ```
 
 3. Salin file `.env.example` menjadi `.env` dan atur konfigurasi database Anda.
