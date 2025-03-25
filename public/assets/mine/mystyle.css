@@ -1,0 +1,125 @@
+.loading{
+	width:100%;
+	height:100%;
+	background-color:#FFF;
+	position:fixed;
+	z-index:9999;
+	opacity:0.7;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.loader {
+    border: 6px solid #CCC; /* Light grey */
+    border-top: 6px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 2s linear infinite;
+	position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	z-index:10;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* ================ global style custom ============ */
+
+a.text-primary:hover, a.text-danger:hover, a.text-link:hover{
+    text-decoration: underline !important;
+    font-weight: bold !important;
+}
+
+.hover-click:hover{
+    cursor: pointer;
+}
+.fs-13{
+    font-size: 13px !important;
+}
+.page-item .page-link {
+    border-radius: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.card {
+    box-shadow: none !important;
+    margin-bottom: 15px !important;
+    transition: none !important;
+    border: 1px solid #e3eaef !important;
+}
+
+div.dataTables_paginate ul.pagination {
+    padding-top: 0.5em !important;
+}
+
+.table.table-xs td{
+    padding-top: 0.2rem !important;
+    padding-bottom: 0.2rem !important;
+    vertical-align: middle !important;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: 0.3rem 0.5rem;
+    margin-left: 0;
+    line-height: 1.25;
+}
+
+table.dataTable {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+/* datatables */
+.table.dataTable[class*="table-"] thead th {
+    line-height: 15px;
+}
+
+.table td, .table th{
+    white-space: normal !important;
+}
+
+.table th{
+    vertical-align: middle !important;
+}
+
+.table td{
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+}
+
+table, table thead th, .column-search{
+    /* font-size: 13px !important; */
+    line-height: 130% !important;
+}
+table.dataTable thead>tr>th.sorting_asc, table.dataTable thead>tr>th.sorting_desc, table.dataTable thead>tr>th.sorting, table.dataTable thead>tr>td.sorting_asc, table.dataTable thead>tr>td.sorting_desc, table.dataTable thead>tr>td.sorting {
+    padding-right: 10px !important;
+}
+.dataTables_filter { 
+    display: none; 
+}
+table.dataTable tbody tr:hover {
+    background-color: #ffa;
+}
+
+table.dataTable tbody tr:hover > .sorting_1 {
+    background-color: #ffa;
+}
+
+/* ================================= template style */
+.card-footer{
+    border-top: 1px solid #f1f5f7 !important;
+    background-color: white !important;
+}
+
